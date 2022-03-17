@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  color: #495371;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 60px;
+}
+
+.intro {
+  font-size: 20px;
+
+}
+
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: '"Source Sans Pro"';
+    color: #495371;
+}
+.navbar-nav  li a:hover {
+    color: #fff !important;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #A2D2FF;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 15px;
+  color: #fff;
+
+}
+
+.edit-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post p {
+  white-space: pre-wrap;
+}
+
+button {
+  background-color:transparent ;
+  border: 0;
+}
+
+button:hover{
+  color: #FF865E;
+}

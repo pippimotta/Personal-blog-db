@@ -1,0 +1,21 @@
+
+<%- include("partials/header"); -%>
+    <h1>Home</h1>
+    <div class="intro">
+        <p>This is the Note Blog of <a href="https://pippimotta.github.io/">Pippi.Z</a> who is learning programming.</p>
+    </div>
+    <hr>
+
+  <%  posts.forEach(function(post){ %>
+
+    <h3><%=post.title%></h3>
+    <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>
